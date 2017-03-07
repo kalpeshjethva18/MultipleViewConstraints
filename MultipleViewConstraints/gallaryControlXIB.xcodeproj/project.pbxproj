@@ -1,0 +1,392 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		848C4F9C1E613A9900DF7DA9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848C4F9B1E613A9900DF7DA9 /* AppDelegate.swift */; };
+		848C4F9E1E613A9900DF7DA9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848C4F9D1E613A9900DF7DA9 /* ViewController.swift */; };
+		848C4FA31E613A9900DF7DA9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 848C4FA21E613A9900DF7DA9 /* Assets.xcassets */; };
+		848C4FA61E613A9900DF7DA9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 848C4FA41E613A9900DF7DA9 /* LaunchScreen.storyboard */; };
+		848C4FAE1E613AC000DF7DA9 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 848C4FAD1E613AC000DF7DA9 /* ViewController.xib */; };
+		848C4FBF1E613C5300DF7DA9 /* k1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 848C4FAF1E613C5300DF7DA9 /* k1.jpeg */; };
+		848C4FC01E613C5300DF7DA9 /* k2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 848C4FB01E613C5300DF7DA9 /* k2.jpeg */; };
+		848C4FC11E613C5300DF7DA9 /* k3.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 848C4FB11E613C5300DF7DA9 /* k3.jpeg */; };
+		848C4FC21E613C5300DF7DA9 /* k4.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 848C4FB21E613C5300DF7DA9 /* k4.jpeg */; };
+		848C4FC31E613C5300DF7DA9 /* k5.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 848C4FB31E613C5300DF7DA9 /* k5.jpeg */; };
+		848C4FC41E613C5300DF7DA9 /* k6.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 848C4FB41E613C5300DF7DA9 /* k6.jpeg */; };
+		848C4FC51E613C5300DF7DA9 /* k7.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 848C4FB51E613C5300DF7DA9 /* k7.jpeg */; };
+		848C4FC61E613C5300DF7DA9 /* k8.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 848C4FB61E613C5300DF7DA9 /* k8.jpeg */; };
+		848C4FC71E613C5300DF7DA9 /* k9.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 848C4FB71E613C5300DF7DA9 /* k9.jpeg */; };
+		848C4FC81E613C5300DF7DA9 /* k10.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 848C4FB81E613C5300DF7DA9 /* k10.jpeg */; };
+		848C4FC91E613C5300DF7DA9 /* k11.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 848C4FB91E613C5300DF7DA9 /* k11.jpeg */; };
+		848C4FCA1E613C5300DF7DA9 /* k12.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 848C4FBA1E613C5300DF7DA9 /* k12.jpeg */; };
+		848C4FCB1E613C5300DF7DA9 /* k13.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 848C4FBB1E613C5300DF7DA9 /* k13.jpeg */; };
+		848C4FCC1E613C5300DF7DA9 /* k14.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 848C4FBC1E613C5300DF7DA9 /* k14.jpeg */; };
+		848C4FCD1E613C5300DF7DA9 /* k15.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 848C4FBD1E613C5300DF7DA9 /* k15.jpeg */; };
+		848C4FCE1E613C5300DF7DA9 /* k16.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 848C4FBE1E613C5300DF7DA9 /* k16.jpeg */; };
+		848C4FD11E613CAA00DF7DA9 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 848C4FD01E613CAA00DF7DA9 /* AssetsLibrary.framework */; };
+		848C4FD31E613CD700DF7DA9 /* GalleryGlobal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848C4FD21E613CD700DF7DA9 /* GalleryGlobal.swift */; };
+		848C4FD81E613D8700DF7DA9 /* imgCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848C4FD61E613D8700DF7DA9 /* imgCell.swift */; };
+		848C4FD91E613D8700DF7DA9 /* imgCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 848C4FD71E613D8700DF7DA9 /* imgCell.xib */; };
+		9B18FCC41E6D6B1C00ED7984 /* secview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B18FCC21E6D6B1C00ED7984 /* secview.swift */; };
+		9B18FCC51E6D6B1C00ED7984 /* secview.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B18FCC31E6D6B1C00ED7984 /* secview.xib */; };
+		9B18FCC81E6D83CB00ED7984 /* custCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B18FCC61E6D83CB00ED7984 /* custCell.swift */; };
+		9B18FCC91E6D83CB00ED7984 /* custCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B18FCC71E6D83CB00ED7984 /* custCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		848C4F981E613A9800DF7DA9 /* gallaryControlXIB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gallaryControlXIB.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		848C4F9B1E613A9900DF7DA9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		848C4F9D1E613A9900DF7DA9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		848C4FA21E613A9900DF7DA9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		848C4FA51E613A9900DF7DA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		848C4FA71E613A9900DF7DA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		848C4FAD1E613AC000DF7DA9 /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		848C4FAF1E613C5300DF7DA9 /* k1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = k1.jpeg; sourceTree = "<group>"; };
+		848C4FB01E613C5300DF7DA9 /* k2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = k2.jpeg; sourceTree = "<group>"; };
+		848C4FB11E613C5300DF7DA9 /* k3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = k3.jpeg; sourceTree = "<group>"; };
+		848C4FB21E613C5300DF7DA9 /* k4.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = k4.jpeg; sourceTree = "<group>"; };
+		848C4FB31E613C5300DF7DA9 /* k5.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = k5.jpeg; sourceTree = "<group>"; };
+		848C4FB41E613C5300DF7DA9 /* k6.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = k6.jpeg; sourceTree = "<group>"; };
+		848C4FB51E613C5300DF7DA9 /* k7.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = k7.jpeg; sourceTree = "<group>"; };
+		848C4FB61E613C5300DF7DA9 /* k8.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = k8.jpeg; sourceTree = "<group>"; };
+		848C4FB71E613C5300DF7DA9 /* k9.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = k9.jpeg; sourceTree = "<group>"; };
+		848C4FB81E613C5300DF7DA9 /* k10.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = k10.jpeg; sourceTree = "<group>"; };
+		848C4FB91E613C5300DF7DA9 /* k11.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = k11.jpeg; sourceTree = "<group>"; };
+		848C4FBA1E613C5300DF7DA9 /* k12.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = k12.jpeg; sourceTree = "<group>"; };
+		848C4FBB1E613C5300DF7DA9 /* k13.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = k13.jpeg; sourceTree = "<group>"; };
+		848C4FBC1E613C5300DF7DA9 /* k14.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = k14.jpeg; sourceTree = "<group>"; };
+		848C4FBD1E613C5300DF7DA9 /* k15.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = k15.jpeg; sourceTree = "<group>"; };
+		848C4FBE1E613C5300DF7DA9 /* k16.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = k16.jpeg; sourceTree = "<group>"; };
+		848C4FD01E613CAA00DF7DA9 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		848C4FD21E613CD700DF7DA9 /* GalleryGlobal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GalleryGlobal.swift; sourceTree = "<group>"; };
+		848C4FD61E613D8700DF7DA9 /* imgCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = imgCell.swift; sourceTree = "<group>"; };
+		848C4FD71E613D8700DF7DA9 /* imgCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = imgCell.xib; sourceTree = "<group>"; };
+		9B18FCC21E6D6B1C00ED7984 /* secview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = secview.swift; sourceTree = "<group>"; };
+		9B18FCC31E6D6B1C00ED7984 /* secview.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = secview.xib; sourceTree = "<group>"; };
+		9B18FCC61E6D83CB00ED7984 /* custCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = custCell.swift; sourceTree = "<group>"; };
+		9B18FCC71E6D83CB00ED7984 /* custCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = custCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		848C4F951E613A9800DF7DA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				848C4FD11E613CAA00DF7DA9 /* AssetsLibrary.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		848C4F8F1E613A9800DF7DA9 = {
+			isa = PBXGroup;
+			children = (
+				848C4FD61E613D8700DF7DA9 /* imgCell.swift */,
+				848C4FD71E613D8700DF7DA9 /* imgCell.xib */,
+				848C4FD01E613CAA00DF7DA9 /* AssetsLibrary.framework */,
+				848C4F9A1E613A9800DF7DA9 /* gallaryControlXIB */,
+				848C4F991E613A9800DF7DA9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		848C4F991E613A9800DF7DA9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				848C4F981E613A9800DF7DA9 /* gallaryControlXIB.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		848C4F9A1E613A9800DF7DA9 /* gallaryControlXIB */ = {
+			isa = PBXGroup;
+			children = (
+				848C4FD21E613CD700DF7DA9 /* GalleryGlobal.swift */,
+				848C4F9B1E613A9900DF7DA9 /* AppDelegate.swift */,
+				9B18FCC61E6D83CB00ED7984 /* custCell.swift */,
+				9B18FCC71E6D83CB00ED7984 /* custCell.xib */,
+				9B18FCC21E6D6B1C00ED7984 /* secview.swift */,
+				9B18FCC31E6D6B1C00ED7984 /* secview.xib */,
+				848C4F9D1E613A9900DF7DA9 /* ViewController.swift */,
+				848C4FAD1E613AC000DF7DA9 /* ViewController.xib */,
+				848C4FA21E613A9900DF7DA9 /* Assets.xcassets */,
+				848C4FA41E613A9900DF7DA9 /* LaunchScreen.storyboard */,
+				848C4FA71E613A9900DF7DA9 /* Info.plist */,
+				848C4FCF1E613C6000DF7DA9 /* image */,
+			);
+			path = gallaryControlXIB;
+			sourceTree = "<group>";
+		};
+		848C4FCF1E613C6000DF7DA9 /* image */ = {
+			isa = PBXGroup;
+			children = (
+				848C4FAF1E613C5300DF7DA9 /* k1.jpeg */,
+				848C4FB01E613C5300DF7DA9 /* k2.jpeg */,
+				848C4FB11E613C5300DF7DA9 /* k3.jpeg */,
+				848C4FB21E613C5300DF7DA9 /* k4.jpeg */,
+				848C4FB31E613C5300DF7DA9 /* k5.jpeg */,
+				848C4FB41E613C5300DF7DA9 /* k6.jpeg */,
+				848C4FB51E613C5300DF7DA9 /* k7.jpeg */,
+				848C4FB61E613C5300DF7DA9 /* k8.jpeg */,
+				848C4FB71E613C5300DF7DA9 /* k9.jpeg */,
+				848C4FB81E613C5300DF7DA9 /* k10.jpeg */,
+				848C4FB91E613C5300DF7DA9 /* k11.jpeg */,
+				848C4FBA1E613C5300DF7DA9 /* k12.jpeg */,
+				848C4FBB1E613C5300DF7DA9 /* k13.jpeg */,
+				848C4FBC1E613C5300DF7DA9 /* k14.jpeg */,
+				848C4FBD1E613C5300DF7DA9 /* k15.jpeg */,
+				848C4FBE1E613C5300DF7DA9 /* k16.jpeg */,
+			);
+			name = image;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		848C4F971E613A9800DF7DA9 /* gallaryControlXIB */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 848C4FAA1E613A9900DF7DA9 /* Build configuration list for PBXNativeTarget "gallaryControlXIB" */;
+			buildPhases = (
+				848C4F941E613A9800DF7DA9 /* Sources */,
+				848C4F951E613A9800DF7DA9 /* Frameworks */,
+				848C4F961E613A9800DF7DA9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = gallaryControlXIB;
+			productName = gallaryControlXIB;
+			productReference = 848C4F981E613A9800DF7DA9 /* gallaryControlXIB.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		848C4F901E613A9800DF7DA9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Harshul shah";
+				TargetAttributes = {
+					848C4F971E613A9800DF7DA9 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 848C4F931E613A9800DF7DA9 /* Build configuration list for PBXProject "gallaryControlXIB" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 848C4F8F1E613A9800DF7DA9;
+			productRefGroup = 848C4F991E613A9800DF7DA9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				848C4F971E613A9800DF7DA9 /* gallaryControlXIB */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		848C4F961E613A9800DF7DA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				848C4FC01E613C5300DF7DA9 /* k2.jpeg in Resources */,
+				848C4FD91E613D8700DF7DA9 /* imgCell.xib in Resources */,
+				848C4FA61E613A9900DF7DA9 /* LaunchScreen.storyboard in Resources */,
+				848C4FC21E613C5300DF7DA9 /* k4.jpeg in Resources */,
+				848C4FCC1E613C5300DF7DA9 /* k14.jpeg in Resources */,
+				848C4FCE1E613C5300DF7DA9 /* k16.jpeg in Resources */,
+				848C4FC71E613C5300DF7DA9 /* k9.jpeg in Resources */,
+				848C4FC31E613C5300DF7DA9 /* k5.jpeg in Resources */,
+				848C4FCA1E613C5300DF7DA9 /* k12.jpeg in Resources */,
+				848C4FC61E613C5300DF7DA9 /* k8.jpeg in Resources */,
+				848C4FAE1E613AC000DF7DA9 /* ViewController.xib in Resources */,
+				848C4FC91E613C5300DF7DA9 /* k11.jpeg in Resources */,
+				9B18FCC51E6D6B1C00ED7984 /* secview.xib in Resources */,
+				848C4FC51E613C5300DF7DA9 /* k7.jpeg in Resources */,
+				848C4FC11E613C5300DF7DA9 /* k3.jpeg in Resources */,
+				848C4FCB1E613C5300DF7DA9 /* k13.jpeg in Resources */,
+				9B18FCC91E6D83CB00ED7984 /* custCell.xib in Resources */,
+				848C4FC41E613C5300DF7DA9 /* k6.jpeg in Resources */,
+				848C4FA31E613A9900DF7DA9 /* Assets.xcassets in Resources */,
+				848C4FC81E613C5300DF7DA9 /* k10.jpeg in Resources */,
+				848C4FBF1E613C5300DF7DA9 /* k1.jpeg in Resources */,
+				848C4FCD1E613C5300DF7DA9 /* k15.jpeg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		848C4F941E613A9800DF7DA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B18FCC81E6D83CB00ED7984 /* custCell.swift in Sources */,
+				848C4F9E1E613A9900DF7DA9 /* ViewController.swift in Sources */,
+				9B18FCC41E6D6B1C00ED7984 /* secview.swift in Sources */,
+				848C4FD81E613D8700DF7DA9 /* imgCell.swift in Sources */,
+				848C4FD31E613CD700DF7DA9 /* GalleryGlobal.swift in Sources */,
+				848C4F9C1E613A9900DF7DA9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		848C4FA41E613A9900DF7DA9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				848C4FA51E613A9900DF7DA9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		848C4FA81E613A9900DF7DA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		848C4FA91E613A9900DF7DA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		848C4FAB1E613A9900DF7DA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = gallaryControlXIB/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.css.gallaryControlXIB;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		848C4FAC1E613A9900DF7DA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = gallaryControlXIB/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.css.gallaryControlXIB;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		848C4F931E613A9800DF7DA9 /* Build configuration list for PBXProject "gallaryControlXIB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				848C4FA81E613A9900DF7DA9 /* Debug */,
+				848C4FA91E613A9900DF7DA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		848C4FAA1E613A9900DF7DA9 /* Build configuration list for PBXNativeTarget "gallaryControlXIB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				848C4FAB1E613A9900DF7DA9 /* Debug */,
+				848C4FAC1E613A9900DF7DA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 848C4F901E613A9800DF7DA9 /* Project object */;
+}
